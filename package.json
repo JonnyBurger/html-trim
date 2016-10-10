@@ -1,0 +1,32 @@
+{
+  "name": "html-trim",
+  "version": "0.0.0",
+  "description": "Reduces whitespace in HTML markup",
+  "license": "MIT",
+  "repository": "SciMts/html-trim",
+  "author": {
+    "name": "Sciencematters AG",
+    "email": "info@sciencematters.io",
+    "url": "sciencematters.io"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
